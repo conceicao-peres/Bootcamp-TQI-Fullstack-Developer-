@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+header{
+    width: 100vw;
+    height: 60px;
+    margin-bottom: 10px;
+}
+.topo{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 152px;
+    font-size: 18px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+}
+.links{
+    display: flex; 
+    justify-content: space-evenly;
+    width: 200px;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-style: none;
+}
+a:hover{
+    font-weight: 700;
+	text-decoration: underline;
+}
+.container{
+    background: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    position: static;
+    align-items: center;
+
+}
+.sobre{
+    display: flex;
+    padding: 10px 152px;
+    font-size: 1.05rem;
+    margin-top: 50px;
+}
+.container img{
+    position: static;
+    width: 268px;
+    height: 268px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+ 
+}
+.sobre img{
+    border-radius: 50%;
+    margin-top: 30px;
+}
+
+#contato{
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    width: 150px;
+    font-weight: 700;
+}
+.hobbies-skills{
+    display: flex;
+    flex-direction: column;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    background-color: #ffffff;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    width: 100vw;
+    
+    
+}
+.skills, .hobbies{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 152px;
+
+}
+.skills h2, .hobbies h2, .formacao h2{
+    text-align: center;
+}
+.lista-skills, .lista-hobbies{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+
+}
+.skills li, .hobbies li{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    position: static;
+    width: 176px;
+    height: 174px;
+    background: #F5F5F5;
+    align-items: center;
+    border-radius: 10%;
+    flex-grow: 0;
+    font-weight: 700;
+}
+.lista-skills img, .lista-hobbies img{
+    position: static;
+    width: 34px;
+    height: 47px;
+    order: 0;
+  
+}
+.skills li:hover, .hobbies li:hover, .formacao li:hover{
+    font-size: 20px;
+    border: 2px solid cornflowerblue;
+}
+.formacao{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    order: 3;
+    padding: 0;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.lista-formacao{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding: 0;
+    margin-top: 30px;
+}
+.lista-formacao li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 700;
+    border-radius: 10%;
+}
+.lista-formacao img{
+    border-radius: 10%;
+    order: 0;
+    margin-bottom: 10px;
+}
+.lista-formacao li p{
+    padding: 0;
+    margin: 0;
+}
+.descricao-formacao{
+    font-size: 1.25rem;
+}
+footer{
+    width: 100vw;
+    height: 50px;
+    margin-top: 30px; 
+    text-align: center;
+    font-weight: 700;
+}
