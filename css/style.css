@@ -225,3 +225,14 @@ a:hover{
 .texto p{
     padding: 5px 0px;
 }
+
+
+@media(max-width: 800px){
+    h1{
+        width: 85%;
+    } 
+    .social-media{
+        display: flex;
+        flex-direction: column;
+    }
+}
