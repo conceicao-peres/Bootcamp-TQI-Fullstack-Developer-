@@ -45,26 +45,41 @@ main{
     flex-direction: column;
     align-items: center;
     padding: 50px 0;
-    
+     
 }
 .itens{
     display: flex;
-    flex-direction: column;
-    padding: 10px 152px;
-    
+    flex-direction: column;    
+    width: 70vw;
 }
 .experiencia{
     display: flex;
     padding-top: 30px;
+    justify-content: space-between;
     align-items: center;
+ 
 }
-
 .img-experiencia img {
     width: 752px;
     height: 406px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    padding: 0 50px;
 }
+#experiencia-meio{
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+#img-meio{
+    margin-left: 100px;
+}
+.infos{
+    display: flex;
+    flex-direction: column;
+    padding-right: 50px;
+}
+#experiencia-meio .infos{
+    padding-right: 0; 
+}
+
 .repositoio{
     position: absolute;
     width: 105px;
@@ -94,16 +109,30 @@ main{
     color: #FFFFFF;
 }
 footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+footer .social-media{
+    display: flex;
+    justify-content: center;
     width: 100vw;
-    height: 50px;
-    margin-top: 30px; 
-    text-align: center;
-    font-weight: 700;
+    align-items: center;
+    font-size: small;
+
+}
+footer .img{
+    margin-left: 15px;
+}
+footer img{
+    width: 20px;
+    height: 20px;
 }
 
 
+@media(max-width: 992px){
 
-@media(max-width: 800px){
     header{
         margin-bottom: 0;
 
@@ -114,14 +143,7 @@ footer{
         font-weight: 400;    
         font-size: small;
     }
-   .experiencia-area{
-        padding: 0;
-        margin: 0; 
-   }
-   .itens{
-        padding: 0;
-        margin: 0;  
-   }
+
    .experiencia{
         padding: 0;
         margin: 0;   
@@ -135,10 +157,16 @@ footer{
         position: relative;
         padding: 0;
    }
+   #experiencia-meio{
+        flex-direction:column; 
+    }
+    #img-meio{
+        margin-left: 0;
+    }
    .infos{
        display: flex;
        flex-direction: column;
-
+ 
    }
    .infos h3{
        font-size: small;
@@ -156,8 +184,6 @@ footer{
         position: relative;
         width: 50vw;
         height: 25px;
-        margin-bottom: 10px;
-
- 
+        margin-bottom: 10px; 
    }
 }
