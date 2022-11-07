@@ -1,44 +1,231 @@
 <!DOCTYPE html>
-<html lang="br">
+<html lang="pt=br">
     <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initil-scale=1.0">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfólio - Conceição Peres</title>
         <link rel="stylesheet" href="./css/style.css">
-        <title>Portifólio - Conceição Peres</title>
+        <link rel="stylesheet" href="./css/sobre.css">
+        <link rel="stylesheet" href="./css/formacao_skill.css">
+        <link rel="stylesheet" href="./css/experiencia_profissional.css">
+        <link rel="stylesheet" href="./css/projetos.css">
     </head>
     <body>
-        <header class="header-wrapper">
-            <div class="header">
-                <div class="checkbox-container">
-                    <div class="checkbox-wrapper">
-                        <input type="checkbox" id="toggle">
-                        <label for="toggle" class="checkbox">
-                            <div class="trace"></div>
-                            <div class="trace"></div>
-                            <div class="trace"></div>
-                        </label>
-                        <div class="menu"></div>
-                        <nave class="menu-itens">
-                            <ul>
-                                <li>
-                                    <a href="./index.html">Home</a>
-                                </li>
-                                <li>
-                                    <a href="./html/sobre.html">Sobre</a>
-                                </li>
-                                <li>
-                                    <a href="./html/projetos.html">Projetos</a>
-                                </li>
-                            </ul>
-                        </nave>
+        <header>
+            <div class="topo">
+                <div class="logo">
+                    <img src="./imagens/icons.png">
+                    Conceição Peres
+                </div>
+                <ul class="links">
+                    <li><a href="#formacao-skills">Formação / Skills</a></li>
+                    <li><a href="#experiencia-profissional">Experiência profissional</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                </ul>
+            </div>
+        </header>
+        <main class="container">
+             <div class="sobre">
+                <div class="sobre-topo">
+                    <img src="https://github.com/conceicao-peres.png">
+                    <div class="descricao">
+                        <h1>Olá meu nome é Conceição, e construi essa página para que conheça um pouco mais sobre mim e meus projetos.</h1>
+                        <p>Sou paulista, atualmente morando em Salvador - BA. Apaixonada por surf, skate,  <a href="https://www.instagram.com/consuperes/" target="_blank"><u>fotografia</u></a> e viagens que me proporcionem a oportunidade de estar em contato com a natureza e a prática dessas atividades. </p>
+                    </div>
+                </div>
+                <div class="sobre-mim">
+                    <div class="texto">
+                        <p>Sou formada em Sistema de informação, possuo experiencia profissional em monitoramento de ambientes, acompanhamento a incidentes, gestão de metas operacionais e análises de dados para planejamento estratégico (médio e longo prazo).</p>
+                        <p>Atualmente estou em busca da minha primeira oportunidade como desenvolvedora e para isso, estou cursando trilhas de desenvolvimento e participando de bootcamps como forma de desenvolver habilidades e adquirir experiência em programação.</p>
+                    </div>
+                    <ul class="links" id="contato">
+                        <li><a href="https://github.com/conceicao-peres" target="_blank">Github </a></li>
+                        <li><a href="https://www.linkedin.com/in/conceicao-peres-da-silva" target="_blank">Linkedin</a></li>
+                        <li id="linkCurriculo"><a href="./imagens/curriculo.pdf" target="_blank">Currículo</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="formacao-skills" id="formacao-skills">
+                <div class="formacao" id="formacao">
+                    <h2>Formação Acadêmica</h2>
+                    <ul class="lista-formacao">
+                        <a href="https://user-images.githubusercontent.com/73192544/200056195-2110adf6-3e98-46a0-9830-c0a353b3c63b.png" target="blank"><li>
+                            <img src="./imagens/luizacode.png">
+                            <p class="descricao-formacao">Bootcamp Python</p>
+                            <p class="data">2022 - LuizaLabs</p>
+                        </li></a>
+                        <a href="https://cursos.alura.com.br/user/conceicaoperes25/fullCertificate/dcb45d99f49bbcdb2882527e017e462b" target="blank"><li>
+                            <img src="./imagens/alura.png">
+                            <p class="descricao-formacao">Formação Front-end</p>
+                            <p class="data">2022 - Alura</p>
+                        </li></a>
+                        <a href="https://e-certificado.com/login/autenticar?c=796482A02A4F9515499140" target="blank"><li>
+                            <img src="./imagens/hsm.jpeg">
+                            <p class="descricao-formacao">Gestão de Marketing</p>
+                            <p class="data">2020 - HSM University </p>
+                        </li></a>
+                        <li>
+                            <img src="./imagens/anhanguera.jpeg">
+                            <p class="descricao-formacao">Sistema de informação</p>
+                            <p class="data">2011 - Uniban</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="skills">
+                    <h2>Skills</h2>
+                    <ul class="lista-skills">
+                        <li>
+                            <img src="./imagens/python.png">
+                            <p class="descricao"> Python</p>
+                        </li>
+                        <li>
+                            <img src="./imagens/mongodb.png">
+                            <p class="descricao"> MongoDB</p>
+                        </li>
+                        <li>
+                            <img src="./imagens/fastapi.png">
+                            <p class="descricao"> FastAPI</p>
+                        </li>
+                        <li>
+                            <img src="./imagens/pytest.png">
+                            <p class="descricao"> Pytest</p>
+                        </li>
+                        <li>
+                            <img src="./imagens/html.png">
+                            <p class="descricao"> HTML5</p>
+                        </li>
+                        <li>
+                            <img src="./imagens/cssr.png">
+                            <p class="descricao"> CSS</p>
+                        </li>
+                        <li>
+                            <img src="./imagens/js.png">
+                            <p class="descricao">Javascript</p>
+                        </li>
+                        <li>
+                            <img src="./imagens/github.png">
+                            <p class="descricao">Git</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="experiencia-profissional" id="experiencia-profissional">
+                <h2>Experiência profissional</h2>
+                <div class="experiencias">
+                    <div class="sitel">
+                        <h3>Analista de Planejamento de Call Center </h3>
+                        <h5>Banco Santander (08/12 - 05/19) 
+                                São Paulo, Brasil</h5>
+                        <p>Previsão de demanda (volume e TMA) feita através de métodos estatísticos aplicados em base histórica dos mesmos indicadores, considerando as premissas e características operacionais do produto. Avaliação da curva e normatização de comportamentos atípicos.<br>
+                            Dimensionamento receptivo para garantir a quantidade necessária de recursos no momento correto para atendimento do volume previsto e para atingir as metas acordadas (NS, TMA).<br>
+                            Confecção e gestão de escalas para alocar os agentes de forma que fiquem aderentes às premissas definidas no forecast e a curva de necessidades.<br>
+                            Extração, análise e apresentação de relatórios operacionais e gerenciais que consolidam informações de tráfego de todas as operações, oferecendo insumos detalhados sobre indicadores, facilitando a gestão de SLAs e tomadas de decisões.<br>
+                            Controle e acompanhamento de intyradays operacionais em tempo real, comparando o forecast e dimensionamento previsto x realizado, identificando oportunidades e indicando planos de contingências a fim de garantir a entrega do NS e demais indicadores.<br>
+                            Registro, acompanhamento e direcionamento de incidentes sistêmicos para equipes responsáveis, assegurando que fossem identificados e tratados no menor tempo possível. <br>
+                            Registro e acompanhamento em diário de bordo.<br>
+                            Testes de performance</p>
+                    </div>
+                    <div class="voran">
+                        <h3>Analista de Control Desk</h3>
+                        <h5>NET TV
+                            Voran Tecnologia (08/11 - 08/12
+                            São Paulo, Brasil
+                            </h5>
+                        <p>Análise em real time dos indicadores das operações e seus impactos, visando o melhor desempenho e qualidade do atendimento das operações de CallCenter.<br>
+                            Apoio a gerentes, coordenação e supervisão das operações e outros controles da empresa, dando assistência e auxiliando da abertura ao fechamento dos chamados até validações e registro em diário de bordo.<br>
+                            Contingencia de agentes para controle de filas e possíveis correções de desvios no planejamento. Acompanhamento e direcionamento dos problemas técnicos na central.<br>
+                            Atualização, execução e envio de relatórios gerenciais e operacionais.<br>
+                            Teste de performance.</p>
                     </div>
                 </div>
             </div>
-            <h1>Olá meu nome é Conceição, e construi essa página para que conheça um pouco mais sobre mim e meus projetos.</h1>
-            <div class="social-media">
-                <a href="https://www.linkedin.com/in/conceicao-peres-da-silva" target="_blank">Linkedin</a>
-                <a href="https://github.com/conceicao-peres" target="_blank">GitHub</a>
+            <div class="projetos" id="projetos">
+                <h2>Meus Projetos</h2>
+                <div class="itens">
+                    <div class="projeto">
+                        <div class="projeto-img">
+                            <img src="./imagens/shopcart.png">
+                        </div>
+                        <div class="projeto-infos">
+                            <h3>Shop Cart</h3>
+                            <p>Projeto Final do LuizaCode!<br>
+                                Elaboração de um carrinho de compras com Python, <br>FastAPI e MongoDB </p>
+                            <div class="links">
+                                <a href="https://github.com/conceicao-peres/Carrinho-de-compras" target="_blank"><button class="repositoio" id="repositório">Repositório</button></a>
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="projeto" id="projeto-meio">
+                        <div class="projeto-img">
+                            <img src="./imagens/jogo_memoria.png">
+                        </div>
+                        <div class="projeto-infos">
+                            <h3>Jogo da memória</h3>
+                            <p>Projeto conclusão de módulo - Bootcamp TQI e DIO!<br>
+                                HTML | CSS| JavaScript</p>
+                                <div class="links">
+                                    <a href="https://github.com/conceicao-peres/jogo-da-memoria" target="_blank"><button class="repositoio" id="repositório">Repositório</button></a>
+                                    <a href="https://conceicao-peres.github.io/jogo-da-memoria/" target="_blank"><button class="demo" id="demo">Demo</button></a>
+                                </div>
+                        </div>
+                    </div> 
+                    <div class="projeto">
+                        <div class="projeto-img">
+                            <img src="./imagens/encriptador.png">
+                        </div>
+                        <div class="projeto-infos">
+                            <h3>Encripitador textos</h3>
+                            <p>Challenge Oracle ONE - Lógica de Programação!<br>
+                                HTML | CSS| JavaScript</p>
+                            <div class="links">
+                                <a href="https://github.com/conceicao-peres/encriptadorTextos#:~:text=/-,encriptadorTextos,-Public" target="_blank"><button class="repositoio" id="repositório">Repositório</button></a>
+                                <a href="https://conceicao-peres.github.io/encriptadorTextos/" target="_blank"><button class="demo" id="demo">Demo</button></a>
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="projeto" id="projeto-meio"> 
+                        <div class="projeto-img">
+                            <img src="./imagens/jogoDaForca.png">
+                        </div> 
+                        <div class="projeto-infos">
+                            <h3>Jogo da forca</h3>
+                            <p>Challenge Oracle ONE - Lógica de Programação!<br>
+                                HTML| Canvas| CSS| JavaScript
+                                </p>
+                            <div class="links">
+                                <a href="https://github.com/conceicao-peres/jogoDaForca#:~:text=/-,jogoDaForca,-Public" target="_blank"><button class="repositoio" id="repositório">Repositório</button></a>
+                                <a href="https://conceicao-peres.github.io/jogoDaForca/" target="_blank"><button class="demo" id="demo">Demo</button></a>
+                            </div> 
+                        </div>   
+                    </div>
+                    <div class="projeto">
+                        <div class="projeto-img">
+                            <img src="./imagens/super-trunfo.png">
+                        </div>
+                        <div class="projeto-infos">
+                            <h3>Super Trunfo</h3>
+                            <p>Imersão Dev Alura!<br>
+                                HTML | CSS| JavaScript
+                            </p>
+                            <div class="links">
+                                <a href="https://github.com/conceicao-peres/superTrunfo#:~:text=/-,superTrunfo,-Public" target="_blank"><button class="repositoio" id="repositório">Repositório</button></a>
+                                <a href="https://conceicao-peres.github.io/superTrunfo/" target="_blank"><button class="demo" id="demo">Demo</button></a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
             </div>
-        </header>
+        </main>
+        <footer> 
+            <div class="social-media">
+                <p>Desenvolvido por <strong>&copy; Conceição Peres - 2022</strong></p>
+                <div class="img">
+                    <a href="https://www.linkedin.com/in/conceicao-peres-da-silva" target="_blank"><img src="./imagens/linkedin.png" target="_blank"></a>
+                    <a href="https://www.github.com/conceicao-peres" target="_blank"><img src="./imagens/github.png" target="_blank"></a> 
+                </div>
+            </div>
+        </footer>
     </body>
 </html>
