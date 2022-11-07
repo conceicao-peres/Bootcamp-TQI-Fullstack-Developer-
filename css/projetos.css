@@ -1,189 +1,76 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap');
 
-body{
-    padding: 0;
-    margin: 0;
-    font-family: 'Raleway', sans-serif;
-}
-header{
-    width: 100vw;
-    height: 60px;
-    margin-bottom: 10px;
-}
-.topo{
-    display: flex;
-    justify-content: space-between;
-    padding: 10px 152px;
-    font-size: 18px;
-}
-.logo{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: 700;
-}
-.links{
-    display: flex; 
-    justify-content: space-evenly;
-    width: 200px;
-    list-style-type: none;
-}
-a{
-    text-decoration: none;
-    color: black;
-    font-style: none;
-}
-a:hover{
-    font-weight: 700;
-	text-decoration: underline;
-}
-main{
-    background: #F5F5F5;
-}
-.experiencia-area{
+.projetos{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding: 50px 0;
-     
+    background-color: #fff;
+    width: 100vw;
+    padding: 20px 0 50px 0;
+}
+h2{
+    text-align: center
 }
 .itens{
     display: flex;
-    flex-direction: column;    
-    width: 70vw;
-}
-.experiencia{
-    display: flex;
-    padding-top: 30px;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
- 
+   
 }
-.img-experiencia img {
-    width: 752px;
-    height: 406px;
+.projeto{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 260px;
+    margin: 10px 0;
+}
+#projeto-meio{
+    flex-direction: row-reverse;
+}
+.projeto-img{
+    width: 600px;
+    height: 350px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
-#experiencia-meio{
-    flex-direction: row-reverse;
-    justify-content: space-between;
+#projeto-meio .projeto-infos{
+    width: 600px;
+
 }
-#img-meio{
-    margin-left: 100px;
+.projeto-img img{
+    width: 500px;
+    height: 250px;
 }
-.infos{
+.projeto-infos{
     display: flex;
     flex-direction: column;
-    padding-right: 50px;
+    align-items: center;
 }
-#experiencia-meio .infos{
-    padding-right: 0; 
+.projeto-infos p{
+    font-weight: 700;
+    font-size:smaller;
+    text-align: center;
 }
-
 .repositoio{
-    position: absolute;
-    width: 105px;
-    height: 51px;
+    width: 90px;
+    height: 30px;
     border: 1px solid #2A7AE4;
     box-sizing: border-box;
-    margin: 70px 0px;
     border-radius: 10%;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
     color: #2A7AE4;
+    margin: 0 5px;
 
 }
 .demo{
-    position: absolute;
     width: 105px;
-    height: 51px;
+    height: 30px;
     background: #2A7AE4;
-    margin: 70px 130px;
     border-radius: 10%;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
     color: #FFFFFF;
-}
-footer{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
-}
-footer .social-media{
-    display: flex;
-    justify-content: center;
-    width: 100vw;
-    align-items: center;
-    font-size: small;
-
-}
-footer .img{
-    margin-left: 15px;
-}
-footer img{
-    width: 20px;
-    height: 20px;
-}
-
-
-@media(max-width: 992px){
-
-    header{
-        margin-bottom: 0;
-
-    }
-    .topo{
-        padding: 0;
-        margin: 0;
-        font-weight: 400;    
-        font-size: small;
-    }
-
-   .experiencia{
-        padding: 0;
-        margin: 0;   
-        flex-direction: column;
-        justify-content: space-evenly;
-        margin-bottom: 30px;
-   }
-   .img-experiencia img{
-        width: 350px;
-        height: 203px;
-        position: relative;
-        padding: 0;
-   }
-   #experiencia-meio{
-        flex-direction:column; 
-    }
-    #img-meio{
-        margin-left: 0;
-    }
-   .infos{
-       display: flex;
-       flex-direction: column;
- 
-   }
-   .infos h3{
-       font-size: small;
-    }
-
-   .infos p{
-        display: none;
-   }
-   .repositoio, .demo{
-        order: 2;
-        padding: 0;
-        margin: 0;
-        font-size: small;
-        line-height: 10px; 
-        position: relative;
-        width: 50vw;
-        height: 25px;
-        margin-bottom: 10px; 
-   }
 }
