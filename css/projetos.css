@@ -49,6 +49,11 @@ h2{
     font-size:smaller;
     text-align: center;
 }
+.projeto-infos .links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .repositoio{
     width: 90px;
     height: 30px;
