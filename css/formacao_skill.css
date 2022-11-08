@@ -89,3 +89,69 @@
     font-size: 18px;
     border: 2px solid cornflowerblue;
 }
+
+@media(max-width: 992px) {
+    .formacao-skills, .formacao{
+        padding-right: 10px;
+        margin-right: 5px;
+        margin-bottom: 0;
+        margin-top: 5;
+        align-items: center;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+  
+    .formacao h2, .skills h2{
+        font-size: medium;
+    }
+    .lista-formacao, .lista-skills{
+        padding: 0;
+        margin: 0;
+        flex-wrap: wrap;
+        align-items: center;
+
+    }
+    .lista-formacao ul{
+        padding: 0;
+        margin: 0;
+        align-items: center;
+    }
+    .lista-formacao li{
+        width: 120px;
+        height: 120px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin-bottom: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+    .lista-formacao img{
+        width: 80px;
+        height: 80px;
+    }
+    .skills{
+        padding: 0;
+        margin: 0;
+    }
+    .lista-formacao li p, .lista-skills li p{
+        font-size: x-small;
+        text-align: center;
+    }
+    .lista-skills{
+        margin-right: 10px;
+        width: 200px;
+    }
+    .lista-skills li{
+        width: 40px;
+        height: 20px;
+        padding: 15px 3px;
+        margin-bottom: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+    .lista-skills img{
+        width: 20px;
+        height: 20px;
+        padding-top: 10px;
+    }
+}

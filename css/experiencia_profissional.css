@@ -10,3 +10,30 @@
     flex-direction: column;
     padding: 10px 152px;
 }
+
+@media(max-width: 992px) {
+    .experiencia-profissional{
+        padding: 10px 0;
+    }
+    .experiencia-profissional h2{
+        font-size: medium;
+    }
+    .experiencias{
+        padding: 0 10px 10px 10px;    
+        margin-left: 15px;   
+    }
+    .experiencias p{
+        display: none;
+    }
+   
+    .sitel h3, .voran h3, .en-sof h3, .cduct h3{
+        font-size: small;
+        margin:0;
+    }
+    .sitel h5, .voran h5, .en-sof h5, .cduct h5{
+        font-size: x-small;
+        font-weight: 100;
+        margin:0;
+        margin-bottom: 10px;
+    }
+}

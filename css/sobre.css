@@ -18,6 +18,9 @@
     display: flex;
 
 }
+.sobre-topo img{
+    border-radius: 50%;
+}
 .descricao{
     display: flex;
     flex-direction: column;
@@ -30,11 +33,9 @@
     flex: none;
     order: 1;
     flex-grow: 0;
- 
-}
-.sobre img{
-    border-radius: 50%;
+  
     margin-top: 30px;
+ 
 }
 #contato{
     justify-content: space-between;
@@ -42,4 +43,42 @@
     margin: 0;
     width: 150px;
     font-weight: 700;
+}
+
+@media(max-width: 992px) {
+    .sobre{
+        padding: 0 20px;
+    }
+    .sobre-topo{
+        flex-direction: column;
+        padding: 0 10px 0 10px;
+        margin-right: 5px;
+        align-items: center;
+    }
+    .sobre-topo img{
+        order: 0;
+    }
+    .container img{
+        margin-top: 0px;
+        width: 120px;
+        height: 120px;
+    }
+    .sobre-topo .descricao{
+        order: 1;
+       
+    }
+    .sobre-topo .descricao h1{
+        font-size: larger;
+        padding: 0 10px 0 10px;
+        margin-right: 5px;
+    }
+    .descricao p, .sobre-mim{
+        padding: 0 10px 0 10px;
+        margin-right: 5px;
+        font-size: medium;
+    }
+    .sobre-mim .links{
+        font-size: x-small;
+    }
+ 
 }
