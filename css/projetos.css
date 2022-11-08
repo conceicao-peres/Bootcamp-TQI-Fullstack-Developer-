@@ -79,3 +79,56 @@ h2{
     line-height: 19px;
     color: #FFFFFF;
 }
+@media(max-width: 992px) {
+    .itens{
+        display: flex;
+        flex-direction: column;
+        margin-top: 0; 
+    }
+    .projetos{
+        margin: 0 10px;
+    }
+    .projetos h2{
+        font-size: medium;
+        margin-bottom: 15px;
+    }
+    .projeto, #projeto-meio{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 5px;
+        align-items: center;
+        margin-top: 0;
+    }
+    .projeto-img{
+        width: 270px;
+        height: 150px;
+        align-items: center;
+    }
+    .projeto-img img, .projeto-infos{
+        width: 270px;
+        height: 130px;
+        font-size: small;
+        padding-bottom: 0;
+       
+    }
+    .projeto-infos h3, p{
+        margin:0;
+        padding: 0;
+    }
+    .projeto-infos p{
+        font-weight: 100;
+    }
+    .projeto-infos .links{
+        padding-top: 5px;
+    }
+    .repositoio{
+        width: 80px;
+        height: 25px;
+        font-size: small;
+    }
+    .demo{
+        width: 80px;
+        height: 25px;
+        font-size: small;
+    }
+}

@@ -48,10 +48,7 @@ main{
     flex-direction: column;
     flex: none;
     order: 1;
-    flex-grow: 0;
     position: static;
-    align-items: center;
-
 }
 
 footer{
@@ -75,4 +72,22 @@ footer .img{
 footer img{
     width: 20px;
     height: 20px;
+}
+
+@media(max-width: 992px) {
+    .topo{
+        flex-direction: column;
+        padding-left: 0;
+        padding-right: 0;
+        font-size: small;
+    }
+    .topo ul{
+        padding-left: 0;
+        padding-right: 0;
+        justify-content: space-evenly;
+        font-size: x-small;
+    }
+    .social-media .img{
+        display: none;
+    }
 }
