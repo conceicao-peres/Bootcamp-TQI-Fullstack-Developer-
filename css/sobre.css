@@ -73,12 +73,15 @@
         margin-right: 5px;
     }
     .descricao p, .sobre-mim{
-        padding: 0 10px 0 10px;
+        padding: 10px;
         margin-right: 5px;
         font-size: medium;
+    }
+    .sobre-mim .texto{
+        margin-bottom: 15px;
     }
     .sobre-mim .links{
         font-size: x-small;
     }
- 
+
 }

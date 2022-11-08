@@ -90,4 +90,8 @@ footer img{
     .social-media .img{
         display: none;
     }
+    footer{
+        font-size: xx-small;
+        padding: 10px 0;
+    }
 }
