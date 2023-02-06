@@ -5,10 +5,21 @@
     flex-direction: column;
     width: 100vw;
 }
+
+.experiencia-profissional h2{
+    padding: 0;
+    padding-top: 20px;
+} 
 .experiencias{
     display: flex;
     flex-direction: column;
     padding: 10px 152px;
+}
+.sitel h5, .voran h5, .en-sof h5, .cduct h5, .prodam h5,  .sitel h3, .voran h3, .en-sof h3, .prodam h3, .cduct h3{
+    margin: 0;
+}
+.sitel h5, .voran h5, .en-sof h5, .cduct h5, .prodam h5{
+    padding-bottom: 20px;
 }
 
 @media(max-width: 992px) {
@@ -26,11 +37,10 @@
         display: none;
     }
    
-    .sitel h3, .voran h3, .en-sof h3, .cduct h3{
-        font-size: small;
+    .sitel h3, .voran h3, .en-sof h3, .prodam h3, .cduct h3{
         margin:0;
     }
-    .sitel h5, .voran h5, .en-sof h5, .cduct h5{
+    .sitel h5, .voran h5, .en-sof h5, .cduct h5, .prodam h5{
         font-size: x-small;
         font-weight: 100;
         margin:0;

@@ -6,12 +6,16 @@
     background-color: #fff;
     width: 100vw;
     padding: 20px 0 50px 0;
+    align-items: center;
 }
 h2{
-    text-align: center
+    text-align: center;
+    padding-bottom: 30px;
 }
 .itens{
+    width: 80vw;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
    
@@ -19,7 +23,8 @@ h2{
 .projeto{
     display: flex;
     justify-content: center;
-    width: 100vw;
+    align-items: center;
+    width: 80vw;
     height: 260px;
     margin: 10px 0;
 }
@@ -33,17 +38,22 @@ h2{
 }
 #projeto-meio .projeto-infos{
     width: 600px;
-
 }
 .projeto-img img{
     width: 500px;
     height: 250px;
 }
 .projeto-infos{
+    align-items: center;
+    width: 200px;
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
+.projeto-infos h3{
+    margin: 0;
+    padding: 0;
+}
+
 .projeto-infos p{
     font-weight: 700;
     font-size:smaller;
@@ -61,21 +71,21 @@ h2{
     box-sizing: border-box;
     border-radius: 10%;
     font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
+    font-weight: 700;
+    font-size: small;
     line-height: 19px;
     color: #2A7AE4;
     margin: 0 5px;
 
 }
 .demo{
-    width: 105px;
+    width: 90px;
     height: 30px;
     background: #2A7AE4;
     border-radius: 10%;
     font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
+    font-weight: 700;
+    font-size: small;
     line-height: 19px;
     color: #FFFFFF;
 }

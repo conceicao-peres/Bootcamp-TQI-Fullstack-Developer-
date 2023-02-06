@@ -26,6 +26,7 @@
     list-style-type: none;
     padding: 0;
     width: 70vw;
+    flex-wrap: wrap;
     
 }
 .lista-formacao li{
@@ -36,17 +37,20 @@
     font-weight: 700;
     border-radius: 10%;
     background: #F5F5F5;
-    width: 200px;
-    height: 220px;
+    width: 160px;
+    height: 160px;
+    padding-bottom: 10px;
 }
 .lista-formacao img{
     border-radius: 10%;
     order: 0;
     margin-bottom: 10px;
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
 }
 .lista-formacao li p{
+    font-size: x-small;
+    font-weight: 700;
     padding: 0;
     margin: 0;
 }
@@ -64,6 +68,7 @@
     flex-wrap: wrap;
     justify-content: space-around;
     list-style-type: none;
+    flex-wrap: wrap;
 }
 .skills li{
     display: flex;
@@ -71,13 +76,17 @@
     justify-content: center;
     align-items: center;
     position: static;
-    width: 100px;
-    height: 120px;
+    width: 80px;
+    height: 100px;
     background: #F5F5F5;
     align-items: center;
     border-radius: 10%;
     flex-grow: 0;
     font-weight: 700;
+}
+.skills li p{
+    font-weight: 700;
+    font-size: x-small;
 }
 .lista-skills img{
     position: static;
